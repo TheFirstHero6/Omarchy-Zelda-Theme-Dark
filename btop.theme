@@ -1,0 +1,86 @@
+# Zelda Twilight Princess Theme for Btop
+# Dark green, brown, and gold aesthetic inspired by Twilight Princess
+
+# Main background
+theme[main_bg]="#0c1312"
+
+# Main text color
+theme[main_fg]="#e2ddc3"
+
+# Title color for boxes
+theme[title]="#e2ddc3"
+
+# Highlight color for keyboard shortcuts
+theme[hi_fg]="#C9B962"
+
+# Background color of selected item in processes box
+theme[selected_bg]="#6D9064"
+
+# Foreground color of selected item in processes box
+theme[selected_fg]="#C9B962"
+
+# Color of inactive/disabled text
+theme[inactive_fg]="#9e9a88"
+
+# Color of text appearing on top of graphs
+theme[graph_text]="#C9B962"
+
+# Background color of the percentage meters
+theme[meter_bg]="#6D9064"
+
+# Misc colors for processes box
+theme[proc_misc]="#C9B962"
+
+# CPU, Memory, Network, Proc box outline colors
+theme[cpu_box]="#6CA08C"
+theme[mem_box]="#6D9064"
+theme[net_box]="#C9B962"
+theme[proc_box]="#9BA064"
+
+# Box divider line and small boxes line color
+theme[div_line]="#6D9064"
+
+# Temperature graph color (Green -> Gold -> Red)
+theme[temp_start]="#6D9064"
+theme[temp_mid]="#C9B962"
+theme[temp_end]="#9e9a88"
+
+# CPU graph colors (Dark Green -> Teal -> Light Green)
+theme[cpu_start]="#0c1312"
+theme[cpu_mid]="#6CA08C"
+theme[cpu_end]="#90B791"
+
+# Mem/Disk free meter (Dark Green -> Muted Green)
+theme[free_start]="#0c1312"
+theme[free_mid]="#6D9064"
+theme[free_end]="#90B791"
+
+# Mem/Disk cached meter (Teal -> Light Green)
+theme[cached_start]="#6CA08C"
+theme[cached_mid]="#90B791"
+theme[cached_end]="#ABC894"
+
+# Mem/Disk available meter (Gold -> Olive)
+theme[available_start]="#C9B962"
+theme[available_mid]="#9BA064"
+theme[available_end]="#6D9064"
+
+# Mem/Disk used meter (Dark Green -> Teal)
+theme[used_start]="#0c1312"
+theme[used_mid]="#6D9064"
+theme[used_end]="#6CA08C"
+
+# Download graph colors (Gold -> Light Green)
+theme[download_start]="#C9B962"
+theme[download_mid]="#9BA064"
+theme[download_end]="#90B791"
+
+# Upload graph colors (Teal -> Light Green)
+theme[upload_start]="#6CA08C"
+theme[upload_mid]="#90B791"
+theme[upload_end]="#ABC894"
+
+# Process box color gradient for threads, mem and cpu usage (Teal -> Green)
+theme[process_start]="#6CA08C"
+theme[process_mid]="#6D9064"
+theme[process_end]="#90B791"

@@ -1,0 +1,67 @@
+# Zelda Twilight Princess Theme for Alacritty
+
+[colors.primary]
+background = "#0c1312"
+foreground = "#e2ddc3"
+dim_foreground = "#9e9a88"
+bright_foreground = "#e2ddc3"
+
+[colors.cursor]
+text = "#0c1312"
+cursor = "#C9B962"
+
+[colors.vi_mode_cursor]
+text = "#0c1312"
+cursor = "#6CA08C"
+
+[colors.search.matches]
+foreground = "#0c1312"
+background = "#6D9064"
+
+[colors.search.focused_match]
+foreground = "#0c1312"
+background = "#C9B962"
+
+[colors.footer_bar]
+foreground = "#e2ddc3"
+background = "#6D9064"
+
+[colors.hints.start]
+foreground = "#0c1312"
+background = "#C9B962"
+
+[colors.hints.end]
+foreground = "#0c1312"
+background = "#6D9064"
+
+[colors.selection]
+text = "#0c1312"
+background = "#6D9064"
+
+[colors.normal]
+black = "#0c1312"
+red = "#9e9a88"
+green = "#6D9064"
+yellow = "#C9B962"
+blue = "#6CA08C"
+magenta = "#9BA064"
+cyan = "#6CA08C"
+white = "#e2ddc3"
+
+[colors.bright]
+black = "#6D9064"
+red = "#ABC894"
+green = "#90B791"
+yellow = "#C9B962"
+blue = "#6CA08C"
+magenta = "#9BA064"
+cyan = "#6CA08C"
+white = "#e2ddc3"
+
+[[colors.indexed_colors]]
+index = 16
+color = "#C9B962"
+
+[[colors.indexed_colors]]
+index = 17
+color = "#6D9064"
