@@ -49,8 +49,8 @@ These are mapped consistently across apps (terminals, waybar, btop, Hyprland, et
 - **Walker & share picker** (`walker.css`, `hyprland-preview-share-picker.css`) — launchers themed to the same palette.
 - **SwayOSD** (`swayosd.css`) — volume/brightness OSD in green/gold.
 - **Chromium** (`chromium.theme`) — background tuned to the dark base.
-- **Neovim** (`neovim.lua`) — Catppuccin Mocha overridden to use the Zelda palette (no blue, only greens/golds/browns).
-- **Cursor / VS Code** (`vscode.json`) — points Cursor/VS Code at the Catppuccin Mocha theme, which is also tinted via Neovim/terminal to match the overall feel.
+- **Neovim** (`neovim.lua`) — Zelda palette (no blue, only greens/golds/browns).
+- **Cursor / VS Code** (`vscode.json`) — points Cursor/VS Code at the Official Zelda-Dark theme, which is also tinted via Neovim/terminal to match the overall feel.
 - **Icons & cursor** (`icons.theme`, `cursor.theme`) — `Yaru-olive` for file manager icons and cursor, matching the forest-green look.
 
 ---
