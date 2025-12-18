@@ -77,3 +77,4 @@ For more on making and installing themes, see the Omarchy manual:
 `https://learn.omacom.io/2/the-omarchy-manual/92/making-your-own-theme`
 
 
+
