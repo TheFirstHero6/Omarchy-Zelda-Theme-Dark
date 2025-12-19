@@ -31,10 +31,8 @@ window#waybar.hidden {
 #clock,
 #network,
 #hyprland-language,
-#pulseaudio,
 #pulseaudio.microphone,
 #hyprland-window,
-#cpu,
 #memory,
 #disk,
 #custom-brightness,
@@ -63,13 +61,23 @@ window#waybar.hidden {
 #custom-screenrecording-indicator,
 #custom-expand-icon,
 #custom-taskbar,
-#group-tray-expander,
-#group-hardware {
+#group-tray-expander {
     color: @foreground;
     padding: 0px 10px 0px 10px;
     background-color: @background-alt;
     border-radius: 10px;
     margin: 4px 2px 0 2px;
+}
+
+#group-hardware {
+    color: @foreground;
+    padding: 0px 10px 0px 10px;
+    background-color: @background-alt;
+    border-radius: 10px;
+    margin: 4px 2px 0 0;
+    margin-left: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
 }
 
 #custom-notifications,
@@ -82,10 +90,8 @@ window#waybar.hidden {
 #custom-separator,
 #pulseaudio.microphone,
 #language,
-#cpu,
 #memory,
 #disk,
-#bluetooth,
 #backlight,
 #battery,
 #custom-hyprshade {
@@ -95,28 +101,59 @@ window#waybar.hidden {
 }
 
 #idle_inhibitor,
-#hyprland-window,
-#pulseaudio,
-#group-hardware {
+#hyprland-window {
     margin-left: 0;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
 }
 
-#custom-notifications,
-#custom-launcher,
-#custom-omarchy,
+#cpu {
+    color: @foreground;
+    padding: 0px 10px 0px 10px;
+    background-color: @background-alt;
+    border-radius: 10px;
+    margin-top: 0;
+    margin-bottom: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+#pulseaudio {
+    color: @foreground;
+    padding: 0px 10px 0px 10px;
+    background-color: @background-alt;
+    border-radius: 10px;
+    margin: 4px 2px 0 2px;
+}
+
 #network {
+    padding: 0px 15px 0px 10px;
+}
+#bluetooth {
+    border-radius: 10px;
+    margin: 4px 2px 0 2px;
+}
+
+#custom-notifications,
+#custom-launcher {
     margin-right: 0;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
+}
+
+#custom-omarchy {
+    margin-right: 0;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 #custom-launcher,
 #custom-omarchy {
     color: @accent;
     font-size: 32px;
-    padding: 2px 0 0 10px;
+    padding: 1px 10px;
+    border: 2px solid @accent;
+    border-radius: 10px;
 }
 
 #custom-taskbar {
