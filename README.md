@@ -57,7 +57,7 @@ These are mapped consistently across apps (terminals, waybar, btop, Hyprland, et
 
 ## Install
 
-If this theme is published on a git host, you can install it via Omarchy:
+You can also install it via Omarchy:
 
 ```bash
 omarchy-theme-install https://github.com/USERNAME/omarchy-zelda-theme
